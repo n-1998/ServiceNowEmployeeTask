@@ -2,8 +2,6 @@ import {createCustomElement} from '@servicenow/ui-core';
 import {createHttpEffect} from '@servicenow/ui-effect-http';
 import snabbdom from '@servicenow/ui-renderer-snabbdom';
 import styles from './styles.scss';
-import '@servicenow/sass-kit/_host.scss';
-import '@servicenow/sass-utility/main'
 
 const EMPLOYEE_SAVE_REQUESTED = "USER_FETCH_REQUESTED";
 const USER_CREATION_SUCCESS = 'USER_CREATION_SUCCESS';
